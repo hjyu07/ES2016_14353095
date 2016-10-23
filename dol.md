@@ -7,6 +7,7 @@
 1. 修改square.c文件，如下，读square的端口“PORT_IN"，将值读到i，i=i*i*i, 输出其三次方数       
      ![img2](http://oficjb2g0.bkt.clouddn.com/ex1_square.png)
 1. 运行结果：输出三次方数![img3](http://oficjb2g0.bkt.clouddn.com/ex1.png)
+
 #example2
 ## .dot截图
 ![img4](http://oficjb2g0.bkt.clouddn.com/ex2_dot.png)
