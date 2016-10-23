@@ -16,6 +16,7 @@
 1. 修改xml文件的iterator，使其只迭代两次，如下图所示 
 ![img5](http://oficjb2g0.bkt.clouddn.com/ex2_generate.png)
 1. 运行结果：使square模块变为两个![img6](http://oficjb2g0.bkt.clouddn.com/ex2.png)
+
 # 实验感想
 本次实验的基础知识在课堂上讲解得非常详细，理解起来比较简单，实验过程中的主要问题是删不了已经运行过的example文件，后来翻看群记录，加上了
 `sudo chown -R (username) dol/build/bin/main/exampex1`
