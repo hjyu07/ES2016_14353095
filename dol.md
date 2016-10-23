@@ -13,7 +13,7 @@
 ![img4](http://oficjb2g0.bkt.clouddn.com/ex2_dot.png)
 ## 实验过程
 1. 进入dol/examples/example2
-1. 修改xml文件的iterator，使其只迭代两次，如下图所示 
+1. 修改xml文件的iterator，使其只迭代两次，如下图所示   
 ![img5](http://oficjb2g0.bkt.clouddn.com/ex2_generate.png)
 1. 运行结果：使square模块变为两个![img6](http://oficjb2g0.bkt.clouddn.com/ex2.png)
 
