@@ -6,8 +6,10 @@
 1. 安装桌面完整版 
    `sudo apt-get install ros-jade-desktop-full`
 1. 初始化rosdep
+
     ![img2](http://oficjb2g0.bkt.clouddn.com/2.png)
 1. 环境配置
+
     ![img3](http://oficjb2g0.bkt.clouddn.com/3.png)
 1. 安装rosinstall
     `sudo apt-get install python-rosinstall`
