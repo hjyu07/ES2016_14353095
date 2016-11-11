@@ -13,6 +13,7 @@
 当t.start()之后，线程t被插入到调度队列里，当调度到它的时候就运行run()里的代码（b.methodB(a)，而在start函数之前，定义了count，当数到count的时候，运行a.methodA(b)。 
 
 methodA、methodB及它们调用的函数都是用关键字synchronized，当线程访问object的一个synchronized同步代码块或同步方法时，其他线程对object中所有其他synchronized同步代码块或同步方法的访问将被阻塞。而代码中可能出现同时调用A类的methodA和last函数，导致资源都被阻塞，造成死锁。
+
 ![img3](http://oficjb2g0.bkt.clouddn.com/classab.png)
 ##三、产生死锁的四个必要条件
 1. **互斥**：至少有一个资源必须处于非共享模式，即一次只有一个进程使用。如果另一进程申请该资源，那么申请进程必须等到该资源被释放为止。
